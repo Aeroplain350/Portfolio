@@ -10,11 +10,21 @@ body{
 }
 p{
     margin: auto;
-    width: 50%;
+    width: 800px;
 }
-button{
+.navigation{
     width: auto;
-    margin: 50px 5px 50px 5px;
+    margin: 100px 5px 50px 5px;
     padding: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(0, 83, 161, 0.37);
+    border-radius: 5px;
+    text-decoration: none;
+    color: darkslategray;
+}
+.headshot{
+    width: 350px;
+    height: 400px;
+    margin: 25px;
+    border-radius: 50px;
 }
