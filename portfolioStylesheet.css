@@ -97,5 +97,39 @@ main{
 .banner h1{
     color: white;
 }
+.project{
+    height: 750px;
+    border: 5px solid black;
+}
+.myProjects .projectTabs {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.myProjects h2 {
+    text-align: center;
+    background-color: lightblue;
+    height: 40px;
+    margin: auto;
+}
+.myProjects h3 {
+    margin: 10px auto;
+    background-color: lightblue;
+}
+.myProjects img{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.myProjects p {
+    height: auto;
+    text-align: center;
+
+    border: 5px solid red;
+}
 
 /* border: 5px solid red; */
