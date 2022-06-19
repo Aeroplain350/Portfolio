@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 html, body{
     margin: 0;
@@ -49,16 +50,53 @@ h1{
 }
 main{
     position: relative;
-    top: 150px;
-}
-.banner{
-    background-color: cornflowerblue;
-    height: 100px;
     width: 100%;
+    top: 90px;
+
+    border: 5px solid white;
+}
+.leftSide .headshot {
+    border-radius: 25px;
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutMe .leftSide {
+    height: 500px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.aboutMe .rightSide {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    float: left;
+}
+.aboutMe h2 {
+    
+}
+.banner {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    background-color: cornflowerblue;
 }
 .banner h1{
-    width: auto;
-    text-align: center;
-    height: auto;
-    color:red;
+    color: white;
+    border: 5px solid red;
 }
+
+/* border: 5px solid red; */
