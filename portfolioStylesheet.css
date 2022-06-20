@@ -9,6 +9,7 @@ html, body{
 header{
     background-color: cornflowerblue;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
     border-radius: 25px;
@@ -51,15 +52,15 @@ h1{
 main{
     position: relative;
     width: 100%;
-    top: 90px;
+    top: 125px;
 
-    border: 5px solid white;
+    /*border: 5px solid white;*/
 }
 .leftSide .headshot {
     border-radius: 25px;
     display: block;
-    height: 50%;
-    width: 50%;
+    height: 75%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -90,7 +91,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
     text-align: center;
     background-color: cornflowerblue;
 }
@@ -99,6 +99,9 @@ main{
 }
 .project{
     height: 750px;
+    width: 90%;
+    background-color: darkgray;
+    margin: 25px auto;
     border: 5px solid black;
 }
 .myProjects .projectTabs {
