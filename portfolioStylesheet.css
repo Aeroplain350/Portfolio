@@ -56,32 +56,6 @@ main{
 
     /*border: 5px solid white;*/
 }
-.leftSide .headshot {
-    border-radius: 25px;
-    display: block;
-    height: 75%;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.aboutMe .leftSide {
-    height: 500px;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    float: left;
-}
-.aboutMe .rightSide {
-    height: 500px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    float: left;
-}
 .aboutMe h2 {
     
 }
